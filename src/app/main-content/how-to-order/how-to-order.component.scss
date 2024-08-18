@@ -1,0 +1,36 @@
+.how_to_order {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 50svh;
+    padding-top: 10svh;
+    padding-bottom: 10svh;
+}
+
+h2 {
+    text-align: center;
+    font-size: 5em;
+    color: #9f0908;
+}
+
+.how_to_order_content {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+    flex-direction: row;
+    height: 60svh;
+    >div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        >img {
+            width: 200px;
+            height: 200px;
+        }
+        >p {
+            padding-top: 2svh;
+            font-size: 3em;
+        }
+    }
+}

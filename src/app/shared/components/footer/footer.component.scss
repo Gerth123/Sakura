@@ -1,0 +1,22 @@
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(18, 17, 27);
+    height: 150px;
+    width: 100%;
+    >img {
+        width: 64px;
+        height: 64px;
+    }
+    >p {
+        margin-left: 20px;
+        font-size: 24px;
+        color: white;
+    }
+    >a {
+        margin-left: 20px;
+        font-size: 24px;
+        color: white;
+    }
+}
